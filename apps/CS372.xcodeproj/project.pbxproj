@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		173315E82A91D01200966230 /* Assignment 01 Part 2.1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 173315E72A91D01200966230 /* Assignment 01 Part 2.1.cpp */; };
+		171CBAD12A99969F00AA771E /* Assignment 02 Part 2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 171CBACA2A9990BB00AA771E /* Assignment 02 Part 2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		171CBACA2A9990BB00AA771E /* Assignment 02 Part 2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assignment 02 Part 2.cpp"; sourceTree = "<group>"; };
+		171CBACC2A9992F600AA771E /* Assignment 02 Part 1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assignment 02 Part 1.cpp"; sourceTree = "<group>"; };
+		171CBACE2A99933300AA771E /* vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		171CBACF2A9995EE00AA771E /* Assignment 02 Part 3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assignment 02 Part 3.cpp"; sourceTree = "<group>"; };
 		173315D92A91C62500966230 /* CS372 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CS372; sourceTree = BUILT_PRODUCTS_DIR; };
 		173315E32A91C67D00966230 /* Assignment 01 Part 1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assignment 01 Part 1.cpp"; sourceTree = "<group>"; };
 		173315E52A91CDCC00966230 /* Assignment 01 Part 2.2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assignment 01 Part 2.2.cpp"; sourceTree = "<group>"; };
@@ -62,6 +66,10 @@
 				173315E32A91C67D00966230 /* Assignment 01 Part 1.cpp */,
 				173315E72A91D01200966230 /* Assignment 01 Part 2.1.cpp */,
 				173315E52A91CDCC00966230 /* Assignment 01 Part 2.2.cpp */,
+				171CBACC2A9992F600AA771E /* Assignment 02 Part 1.cpp */,
+				171CBACA2A9990BB00AA771E /* Assignment 02 Part 2.cpp */,
+				171CBACF2A9995EE00AA771E /* Assignment 02 Part 3.cpp */,
+				171CBACE2A99933300AA771E /* vector.h */,
 			);
 			path = CS372;
 			sourceTree = "<group>";
@@ -123,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				173315E82A91D01200966230 /* Assignment 01 Part 2.1.cpp in Sources */,
+				171CBAD12A99969F00AA771E /* Assignment 02 Part 2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

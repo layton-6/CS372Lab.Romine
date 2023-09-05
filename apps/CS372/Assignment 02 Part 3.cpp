@@ -5,7 +5,7 @@
 #include "vector.h"
 #include <iostream>
 
-class ReceiptBag {
+class Bag {
 private:
     std::vector<int> items;
     std::vector<int> receipts;
@@ -32,7 +32,7 @@ public:
 };
 
 int main() {
-    ReceiptBag bag;
+    Bag bag;
 
     int receipt1 = bag.insert(10);
     int receipt2 = bag.insert(20);

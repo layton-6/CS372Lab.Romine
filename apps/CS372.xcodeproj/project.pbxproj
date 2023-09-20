@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17ADE3F32AB136F700FEA463 /* Assignment 04 Part 3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17ADE3EC2AB1194A00FEA463 /* Assignment 04 Part 3.cpp */; };
+		17E727C32ABA5F340015858F /* MidTerm Problem 2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E727C22ABA5F340015858F /* MidTerm Problem 2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +42,9 @@
 		17ADE3EC2AB1194A00FEA463 /* Assignment 04 Part 3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assignment 04 Part 3.cpp"; sourceTree = "<group>"; };
 		17ADE3EE2AB1285800FEA463 /* seqcontainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = seqcontainer.h; sourceTree = "<group>"; };
 		17ADE3F22AB1368700FEA463 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		17E727C22ABA5F340015858F /* MidTerm Problem 2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "MidTerm Problem 2.cpp"; sourceTree = "<group>"; };
+		17E727C72ABA606C0015858F /* selfadjustinglist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selfadjustinglist.h; sourceTree = "<group>"; };
+		17E727C82ABA67AF0015858F /* newlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = newlist.h; path = ../newlist.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 				17ADE3E82AB1193000FEA463 /* Assignment 04 Part 1.cpp */,
 				17ADE3EA2AB1194000FEA463 /* Assignment 04 Part 2.cpp */,
 				17ADE3EC2AB1194A00FEA463 /* Assignment 04 Part 3.cpp */,
+				17E727C22ABA5F340015858F /* MidTerm Problem 2.cpp */,
 				171CBACE2A99933300AA771E /* vector.h */,
 				1738A9D22AA7803D00F78CF6 /* list.h */,
 				1738A9D72AA7873400F78CF6 /* bag.h */,
@@ -92,6 +96,8 @@
 				1738A9D92AA78A2E00F78CF6 /* prioritylist.h */,
 				17ADE3EE2AB1285800FEA463 /* seqcontainer.h */,
 				17ADE3F22AB1368700FEA463 /* stack.h */,
+				17E727C72ABA606C0015858F /* selfadjustinglist.h */,
+				17E727C82ABA67AF0015858F /* newlist.h */,
 			);
 			path = CS372;
 			sourceTree = "<group>";
@@ -153,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17ADE3F32AB136F700FEA463 /* Assignment 04 Part 3.cpp in Sources */,
+				17E727C32ABA5F340015858F /* MidTerm Problem 2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

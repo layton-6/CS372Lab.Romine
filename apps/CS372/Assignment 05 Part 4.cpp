@@ -1,3 +1,6 @@
+// This was a helpful article for me to understand the concept a little better https://www.geeksforgeeks.org/check-whether-binary-tree-full-binary-tree-not/
+
+
 #include <iostream>
 #include <memory>
 
@@ -53,4 +56,3 @@ int main() {
 
     return 0;
 }
-// This was a helpful article for me to understand the concept a little better https://www.geeksforgeeks.org/check-whether-binary-tree-full-binary-tree-not/

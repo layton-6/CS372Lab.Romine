@@ -1,3 +1,5 @@
+// Helpful video of understanding the algorithm to delete the node https://www.youtube.com/watch?v=zUt2KB2hTQg&ab_channel=SimpleSnippets
+
 
 template<typename V>
 class Tree {
@@ -72,4 +74,3 @@ private:
       return node->value;
    }
 };
-// Helpful video of understanding the algorithm to delete the node https://www.youtube.com/watch?v=zUt2KB2hTQg&ab_channel=SimpleSnippets

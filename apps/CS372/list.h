@@ -1,5 +1,6 @@
 #pragma once
 #include <functional>
+#include <memory>
 #include "seqcontainer.h"
 
 template <typename T>
@@ -9,85 +10,82 @@ public:
     using SeqContainer<T>::head;
     using SeqContainer<T>::tail;
     using SeqContainer<T>::setupList;
-    List() {};
+
+    List() = default;
     List(T newData) : SeqContainer<T>(newData) {}
-    List(List &rhs) : SeqContainer<T>(rhs) {    }
-    
-    ~List(){ }
-    
-    bool empty() {
-        return ( head->next == tail );
+    List(const List& rhs) : SeqContainer<T>(rhs) {}
+    ~List() = default;
+
+    bool empty() const {
+        return (head->next == tail);
     }
-    
-    // And the methods for the rest
+
     void push_front(T data) {
-        if (this->empty()){
+        if (this->empty()) {
             setupList();
-            Node * actualHead = head->next;
+            auto actualHead = head->next;
             actualHead->data = data;
-        }
-        else {
-            Node *actualHead = head->next;
-            Node *newNode = new Node();
+        } else {
+            auto actualHead = head->next;
+            auto newNode = std::shared_ptr<Node>(); //New Shared Pointer from Lecture
             newNode->data = data;
             newNode->next = actualHead;
-            actualHead->prev = newNode;
+            actualHead->prev = newNode.get(); //Had to use .get() to pull from shared pointer
             newNode->prev = head;
-            head->next = newNode;
+            head->next = newNode.get(); //Had to use .get() to pull from shared pointer
         }
     }
+
     void push_back(T data) {
         if (this->empty()) {
             setupList();
-            Node *actualTail = tail->prev;
+            auto actualTail = tail->prev;
             actualTail->data = data;
-        }
-        else {
-            Node *actualTail = tail->prev;
-            Node *newNode = new Node();
+        } else {
+            auto actualTail = tail->prev;
+            auto newNode = std::shared_ptr<Node>(); //New Shared Pointer from Lecture
             newNode->data = data;
             newNode->prev = actualTail;
-            actualTail->next = newNode;
+            actualTail->next = newNode.get(); //Had to use .get() to pull from shared pointer
             newNode->next = tail;
-            tail->prev = newNode;
+            tail->prev = newNode.get(); //Had to use .get() to pull from shared pointer
         }
     }
+
     T front() {
-        Node *actualHead = head->next;
+        auto actualHead = head->next;
         return (actualHead->data);
     }
+
     T back() {
-        Node *actualTail = tail->prev;
+        auto actualTail = tail->prev;
         return (actualTail->data);
     }
+
     void pop_back() {
         if (!empty()) {
-            Node *lastNode = tail->prev;
+            auto lastNode = tail->prev;
             tail->prev = lastNode->prev;
-            Node *newLastNode = tail->prev;
+            auto newLastNode = tail->prev;
             newLastNode->next = tail;
-            delete lastNode;
-            lastNode = nullptr;
-        }
-        else {
-            std::cerr << "pop_back(): Attempt to pop from empty list. " << std::endl;
+        } else {
+            std::cerr << "pop_back(): Attempt to pop from an empty list." << std::endl;
         }
     }
+
     void pop_front() {
         if (!empty()) {
-            Node *firstNode = head->next;
+            auto firstNode = head->next;
             head->next = firstNode->next;
-            Node *newFirstNode = head->next;
+            auto newFirstNode = head->next;
             newFirstNode->prev = head;
-            delete firstNode;
-            firstNode = nullptr;
-        }
-        else {
-            std::cerr << "pop_back(): Attempt to pop from empty list. " << std::endl;
+        } else {
+            std::cerr << "pop_front(): Attempt to pop from an empty list." << std::endl;
         }
     }
-    void traverse(std::function<void(T &data)> doIt) {
-        Node *current = head->next;
+
+    void traverse(std::function<void(T& data)> doIt) {
+        auto current = head->next;
         while (current != tail) {
             doIt(current->data);
             current = current->next;

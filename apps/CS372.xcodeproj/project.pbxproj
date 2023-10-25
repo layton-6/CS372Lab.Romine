@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17D27D212AD61EB80097A64D /* Assignment 06 Part 3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17D27D202AD61EB80097A64D /* Assignment 06 Part 3.cpp */; };
+		178571E22AE8975A00AC2A71 /* Assignment 07 Part 2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 178571E12AE8975A00AC2A71 /* Assignment 07 Part 2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +37,10 @@
 		1738A9D72AA7873400F78CF6 /* bag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bag.h; sourceTree = "<group>"; };
 		1738A9D82AA7886000F78CF6 /* circularlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = circularlist.h; sourceTree = "<group>"; };
 		1738A9D92AA78A2E00F78CF6 /* prioritylist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prioritylist.h; sourceTree = "<group>"; };
+		178571DE2AE8822500AC2A71 /* abstractbasegraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abstractbasegraph.h; sourceTree = "<group>"; };
+		178571DF2AE8825B00AC2A71 /* adjlistgraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adjlistgraph.h; sourceTree = "<group>"; };
+		178571E02AE8826E00AC2A71 /* adjmatrixgraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adjmatrixgraph.h; sourceTree = "<group>"; };
+		178571E12AE8975A00AC2A71 /* Assignment 07 Part 2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assignment 07 Part 2.cpp"; sourceTree = "<group>"; };
 		17ADE3E82AB1193000FEA463 /* Assignment 04 Part 1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assignment 04 Part 1.cpp"; sourceTree = "<group>"; };
 		17ADE3EA2AB1194000FEA463 /* Assignment 04 Part 2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assignment 04 Part 2.cpp"; sourceTree = "<group>"; };
 		17ADE3EC2AB1194A00FEA463 /* Assignment 04 Part 3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assignment 04 Part 3.cpp"; sourceTree = "<group>"; };
@@ -100,9 +104,13 @@
 				17D27D1C2AD612DE0097A64D /* Assignment 06 Part 1.cpp */,
 				17D27D1E2AD61ABA0097A64D /* Assignment 06 Part 2.cpp */,
 				17D27D202AD61EB80097A64D /* Assignment 06 Part 3.cpp */,
+				178571E12AE8975A00AC2A71 /* Assignment 07 Part 2.cpp */,
 				171CBACE2A99933300AA771E /* vector.h */,
 				1738A9D22AA7803D00F78CF6 /* list.h */,
 				1738A9D72AA7873400F78CF6 /* bag.h */,
+				178571DE2AE8822500AC2A71 /* abstractbasegraph.h */,
+				178571DF2AE8825B00AC2A71 /* adjlistgraph.h */,
+				178571E02AE8826E00AC2A71 /* adjmatrixgraph.h */,
 				1738A9D82AA7886000F78CF6 /* circularlist.h */,
 				1738A9D92AA78A2E00F78CF6 /* prioritylist.h */,
 				17ADE3EE2AB1285800FEA463 /* seqcontainer.h */,
@@ -171,7 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17D27D212AD61EB80097A64D /* Assignment 06 Part 3.cpp in Sources */,
+				178571E22AE8975A00AC2A71 /* Assignment 07 Part 2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

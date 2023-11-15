@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		176192382AF1C04200398B61 /* Assignment 09 Part 1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 176192372AF1C04200398B61 /* Assignment 09 Part 1.cpp */; };
-		178571E22AE8975A00AC2A71 /* Assignment 07 Part 2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 178571E12AE8975A00AC2A71 /* Assignment 07 Part 2.cpp */; };
+		17B0C5FC2B0464C5004F0385 /* Final Problem 3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17A5391D2B044F20006CCFAE /* Final Problem 3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +42,9 @@
 		178571DF2AE8825B00AC2A71 /* adjlistgraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adjlistgraph.h; sourceTree = "<group>"; };
 		178571E02AE8826E00AC2A71 /* adjmatrixgraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adjmatrixgraph.h; sourceTree = "<group>"; };
 		178571E12AE8975A00AC2A71 /* Assignment 07 Part 2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assignment 07 Part 2.cpp"; sourceTree = "<group>"; };
+		17A539182B044440006CCFAE /* Final Problem 1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Final Problem 1.cpp"; sourceTree = "<group>"; };
+		17A5391B2B044D34006CCFAE /* Final Problem 2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Final Problem 2.cpp"; sourceTree = "<group>"; };
+		17A5391D2B044F20006CCFAE /* Final Problem 3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Final Problem 3.cpp"; sourceTree = "<group>"; };
 		17ADE3E82AB1193000FEA463 /* Assignment 04 Part 1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assignment 04 Part 1.cpp"; sourceTree = "<group>"; };
 		17ADE3EA2AB1194000FEA463 /* Assignment 04 Part 2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assignment 04 Part 2.cpp"; sourceTree = "<group>"; };
 		17ADE3EC2AB1194A00FEA463 /* Assignment 04 Part 3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assignment 04 Part 3.cpp"; sourceTree = "<group>"; };
@@ -108,6 +110,9 @@
 				17D27D202AD61EB80097A64D /* Assignment 06 Part 3.cpp */,
 				178571E12AE8975A00AC2A71 /* Assignment 07 Part 2.cpp */,
 				176192372AF1C04200398B61 /* Assignment 09 Part 1.cpp */,
+				17A539182B044440006CCFAE /* Final Problem 1.cpp */,
+				17A5391B2B044D34006CCFAE /* Final Problem 2.cpp */,
+				17A5391D2B044F20006CCFAE /* Final Problem 3.cpp */,
 				171CBACE2A99933300AA771E /* vector.h */,
 				1738A9D22AA7803D00F78CF6 /* list.h */,
 				1738A9D72AA7873400F78CF6 /* bag.h */,
@@ -182,8 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				178571E22AE8975A00AC2A71 /* Assignment 07 Part 2.cpp in Sources */,
-				176192382AF1C04200398B61 /* Assignment 09 Part 1.cpp in Sources */,
+				17B0C5FC2B0464C5004F0385 /* Final Problem 3.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,6 +2,8 @@
 // 00103649
 // Dr. Lewis CS372
 
+// Used geekforgeeks to help format and understand quadratic probing https://www.geeksforgeeks.org/quadratic-probing-in-hashing/
+
 #include <cstddef>
 #include <cassert>
 #include <iostream>

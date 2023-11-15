@@ -2,6 +2,8 @@
 // 00103649
 // Dr. Lewis CS372
 
+// Helpful article for me to understand using templates outside of a class template https://www.geeksforgeeks.org/templates-cpp/#
+
 #include <iostream>
 #include <memory>
 

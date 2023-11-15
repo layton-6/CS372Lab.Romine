@@ -2,6 +2,8 @@
 // 00103649
 // Dr. Lewis CS372
 
+// Helpful article for me when using partitions https://www.geeksforgeeks.org/partition_point-in-cpp/
+
 #include <iostream>
 #include <list>
 #include <algorithm>
